@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-p10"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Delacour <bdelacour33@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_p10"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
